@@ -1,0 +1,73 @@
+Residential data [https://www.realtor.com/research/data/]
+
+How to use the data: 
+
+Files are structured for database use, and contain multiple metrics for different levels of geography down to zip code level. ‘Current month data’ shows figures for the latest month available, while the ‘Historical data’ contains monthly series going back in time. The ‘All Residential’ category includes data on all homes (single family home and condo/townhome) for the given level of geography. See key remarks for important info regarding data quality and usage.
+
+Key remarks: 
+
+Data in this Realtor.com library is based on the most comprehensive and accurate database of MLS-listed for-sale homes in the industry. We aggregate and analyze data from hundreds of sources and produce hundreds of metrics for multiple markets, and curate figures and trends where possible for reliability and comparability. However, as we continue to evolve our coverage and fine-tune our definitions, some data points may be too volatile or incomparable over time or across markets. This is particularly true for data in a) smaller geographies; b) markets with special or changing definitions of active inventory; c) markets with limited or partial listing; and d) coverage markets with limited or partial sales coverage. Where possible, these cases are annotated for individual metrics (see data dictionaries for more info). Also, every month, we reissue the full historical series, and past data points may change as we improve data breadth and accuracy, and/or re-state the data altogether.
+
+Note: With the publication of the December 2023 data, metro-level data has been updated to reflect the latest OMB metro area definitions, published July 2023, and historical data has been revised to be consistent with the new geographies. As a result of these changes, this release is not directly comparable with previous data releases and reports.
+
+
+month_date_yyyymm: La fecha en el formato AAAAMM que representa el mes y el año.
+
+state: El nombre del estado.
+
+state_id: Un identificador único para cada estado.
+
+median_listing_price: El precio medio de venta de las viviendas en el estado especificado.
+
+median_listing_price_mm: La variación porcentual intermensual del precio medio de venta.
+
+median_listing_price_yy: La variación porcentual interanual del precio medio de venta.
+
+active_listing_count: El recuento de anuncios activos en el estado especificado.
+
+active_listing_count_mm: El cambio porcentual intermensual en el recuento de anuncios activos.
+
+active_listing_count_yy: Variación porcentual interanual del número de anuncios activos.
+
+median_days_on_market: El número medio de días que una propiedad está en el mercado antes de ser vendida.
+
+median_days_on_market_mm: Variación porcentual intermensual de la mediana de días en el mercado.
+
+median_days_on_market_yy: La variación porcentual interanual de la mediana de días en el mercado.
+
+new_listing_count: El recuento de nuevos listados en el estado especificado.
+
+new_listing_count_mm: El cambio porcentual intermensual en el recuento de nuevos anuncios.
+
+new_listing_count_yy: La variación porcentual interanual en el recuento de nuevos anuncios.
+
+price_increased_count: El recuento de listados en los que el precio ha aumentado.
+
+price_increased_count_mm: El cambio porcentual mes a mes en el recuento de precios incrementados. price_increased_count_yy: La variación porcentual interanual en el recuento de precios incrementados.
+
+price_reduced_count: El recuento de listados en los que se ha reducido el precio.
+
+price_reduced_count_mm: El cambio porcentual mes a mes en el recuento de precios reducidos.
+
+price_reduced_count_yy: La variación porcentual interanual en el recuento de precios reducidos.
+
+pending_listing_count: El recuento de listados que están pendientes (bajo contrato).
+
+pending_listing_count_mm: La variación porcentual intermensual en el recuento de anuncios pendientes. pending_listing_count_yy: Variación porcentual interanual del número de anuncios pendientes. median_listing_price_per_square_foot: El precio medio de venta por pie cuadrado. 
+
+median_listing_price_per_square_foot_mm: La variación porcentual intermensual del precio medio de venta por pie cuadrado. 
+
+median_listing_price_per_square_foot_yy: La variación porcentual interanual del precio medio de venta por pie cuadrado. median_square_feet: El tamaño medio de las viviendas anunciadas. 
+
+median_square_feet_mm: La variación porcentual intermensual de la mediana de pies cuadrados.
+
+median_square_feet_yy: La variación porcentual interanual de la mediana de pies cuadrados.
+
+average_listing_price: El precio medio de venta de las viviendas. 
+
+average_listing_price_mm: El cambio porcentual en el precio promedio de cotización con respecto al mes anterior.
+
+average_listing_price_yy: El cambio porcentual en el precio promedio de cotización con respecto al mismo mes del año anterior.
+
+total_listing_count: El total de listados activos y pendientes dentro de la geografía especificada durante el mes especificado. Esta es una medida instantánea de cuántos listados totales se pueden esperar en un día determinado del mes especificado.
+
