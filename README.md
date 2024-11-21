@@ -12,8 +12,6 @@ Este proyecto fue desarrollado como parte del Bootcamp de Data Science en la IT 
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 
 ## Descripción
 
